@@ -1,0 +1,27 @@
+{
+   "vecancy": [
+       {
+           "name": "Software Developer",
+           "discription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a condimentum erat.",
+           "src": "pdf/se.pdf"
+       },
+       {
+           "name": "DB Engineers",
+           "discription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a condimentum erat."
+           
+       },
+       {
+           "name": "Mobile App Developers",
+           "discription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a condimentum erat.",
+           "src":"pdf/Sofware Engineer (Xamarin Studio).pdf"
+       },
+        {
+           "name": "Document/Techtnical Writers",
+           "discription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a condimentum erat."
+       },
+       {
+           "name": "Software Quality Assurance",
+           "discription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a condimentum erat."
+       }
+   ]
+}
