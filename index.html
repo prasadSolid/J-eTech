@@ -28,6 +28,7 @@
   <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
   <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 
   <!-- Theme CSS -->
   <link rel="stylesheet" type="text/css" href="css/animate.min.css">
@@ -52,8 +53,8 @@
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header page-scroll">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
-                </button>
+            <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
+        </button>
         <a class="navbar-brand page-scroll" href="#page-top"><img src="image/logo.svg" alt="" id=""> </a>
       </div>
 
@@ -75,13 +76,13 @@
             <a class="page-scroll" href="#clients" style="padding: 5px 5px;"><img src="image/icon/facebook.svg" alt="" ></a>
           </li>
           <li>
-            <a class="page-scroll" href="#clients" style="padding: 5px 5px;"><img src="image/icon/linkedin.svg" alt="" ></a>
+            <a class="page-scroll" href="https://www.linkedin.com/company/j-etech-international" style="padding: 5px 5px;"><img src="image/icon/linkedin.svg" alt="" ></a>
           </li>
         </ul>
       </div>
 
       <!-- /.navbar-collapse <-->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-top: 10px;">
         <ul class="nav navbar-nav navbar-right">
           <li class="hidden">
             <a href="#page-top"></a>
@@ -90,16 +91,16 @@
             <a class="page-scroll" href="#aboutus">ABOUT US</a>
           </li>
           <li>
-            <a class="page-scroll" href="#jd"> PRODUCT SUITE</a>
+            <a class="page-scroll" href="#joinus">JOIN US</a>
           </li>
           <li>
-            <a class="page-scroll" href="#news">EVENTS</a>
+            <a class="page-scroll" href="#news">NEWS & EVENT</a>
           </li>
           <li>
-            <a class="page-scroll" href="#team">AGILE PROCESS</a>
+            <a class="page-scroll" href="#products">PRODUCT SUITE</a>
           </li>
           <li>
-            <a class="page-scroll" href="#joinus">CAREER</a>
+            <a class="page-scroll" href="#agile-process">OUR WORKING PROCESS</a>
           </li>
           <li>
             <a class="page-scroll" href="#contact">CONTACT</a>
@@ -121,12 +122,12 @@
       </div>
     </div>
     <div class="arrow">
-      <span><img src="image/icon/arrow.svg" alt="">
+      <span><a class="page-scroll" href="#aboutus"><img src="image/icon/arrow.svg" alt=""></a>
       </span>
     </div>
   </div>
-  </div>
-  <!-- End Header -->
+ </div>
+<!-- End Header -->
 
   <!-- About US -->
   <div class="container" id="aboutus">
@@ -177,7 +178,7 @@
                   <h4>POS Systems</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices turpis odio, ut interdum arcu
                     pharetra ut.</p>
-                  <input type="button" value="READMORE" class="readmorebtn">
+                  <input type="button" value="READMORE" data-target="#products1" data-toggle="modal" class="readmorebtn">
                 </div>
               </div>
             </div>
@@ -226,33 +227,126 @@
     </div>
   </div>
 
+    <!-- Header -->
+  <div id="agile-process" class="">
+    <div class="container">
+      <h1 class="maintitle"> Agile Process</h1>
+      <div class="row agile-process">
+        <img src="../image/agile-process/agile-process.svg"  class="img-responsive" alt="">
+
+        
+      </div>
+        
+      <div id="agile-description" class="collapse agile-description animated bounceIn">
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut finibus neque vel metus facilisis interdum. In ut enim in nulla tempus finibus non sit amet mauris. Vivamus tempor, nisi ultrices malesuada euismod, urna neque facilisis nunc, a finibus odio magna id lorem. Etiam ultrices ullamcorper elementum. Praesent sollicitudin pharetra convallis. Donec non ultricies nibh, sit amet congue urna. Nunc lacinia ex eu ultricies hendrerit. Integer porttitor aliquet nunc quis pretium. Curabitur et congue erat, a viverra tellus. Nulla placerat pharetra nibh quis molestie. Vivamus commodo velit eu urna molestie, quis volutpat sem ullamcorper. Curabitur in faucibus tellus. Nam et massa nec arcu consequat sollicitudin sit amet sit amet nulla.
+
+Fusce facilisis, eros sit amet aliquet vulputate, ex risus sagittis lectus, nec rutrum ligula tellus vel sem. Fusce imperdiet, massa id dapibus iaculis, diam lectus fermentum mauris, eu rhoncus sapien metus dictum erat. Fusce vitae faucibus mi. Aliquam et maximus sapien, sed bibendum enim. Ut convallis tellus ac dui sagittis faucibus quis eu dolor. Curabitur efficitur velit quis eros dignissim aliquet. Aliquam volutpat dapibus tortor, eget consectetur mauris mattis at. Maecenas luctus quis eros ut accumsan. Sed molestie, sapien id posuere pellentesque, felis urna placerat odio, vitae scelerisque elit odio in orci.
+      </div>
+      <div class="agile-readmore" >
+    <input type="button" value="READMORE" class="readmorebtn" data-target="#agile-description" data-toggle="collapse">
+    </div>
+    </div>
+
   </div>
+
+  <!-- End Header -->
+
+<nav class="main-menu">
+            <ul>
+                <li class="active">
+                    <a class="page-scroll" href="#page-top" >
+                        <i class="fa fa-circle fa-2x page-scroll"></i>
+                    </a>
+                  
+                </li>
+                <li  >
+                    <a href="#aboutus" class="page-scroll" >
+                        <i class="fa fa-circle fa-2x page-scroll"></i>
+                    </a>
+                    
+                </li>
+                <li>
+                    <a href="#joinus" class="page-scroll">
+                       <i class="fa fa-circle fa-2x"></i>
+                        <!-- <span class="nav-text">
+                            Forms
+                        </span> -->
+                    </a>
+                    
+                </li>
+                <li>
+                    <a href="#news" class="page-scroll">
+                       <i class="fa fa-circle fa-2x page-scroll"></i>
+                    </a>
+                   
+                </li>     
+                <li>
+                    <a href="#agile-process" class="page-scroll">
+                       <i class="fa fa-circle fa-2x page-scroll"></i>
+                        <!-- <span class="nav-text">
+                            Pages
+                        </span> -->
+                    </a>
+                   
+                </li>                                   
+            </ul>
+
+        </nav>
+
+  
   <!--<div class="col-lg-12 col-md-12 wow bounceInLeft" data-wow-delay="0.8s">-->
-  <!--<div id="footer" class="footer">
+  <div id="footer" class="footer">
   <div class="container">
+    <div class="logo-without-test"><a href="#page-top" class="page-scroll" ><img src="image/icon/logo-without-test.svg" alt=""></a></div>
     <div class="row">
       <div class="col-lg-4 col-md-4">
-        <h4> Contact Us </h4>
-        <p><i class="fa fa-home" aria-hidden="true"></i> 111 main street , Washintan DC </p>
-        <p><i class="fa fa-envelope-o" aria-hidden="true"></i> info@media.com </p>
-        <p><i class="fa fa-phone-square" aria-hidden="true"></i> +1 88549594954 </p>
-        <p><i class="fa fa-globe" aria-hidden="true"></i> www.media.com </p>
+        <h4 class="footer-title"> Get Contacted </h4>
+        <a href=""><p class="footer-item" ><img src="image/icon/facebook.svg" alt="" >Facebook </p></a>
+        <a href=""><p class="footer-item" ><img src="image/icon/twitter.svg" alt="" > Twitter</p></a>
+        <a href="https://www.linkedin.com/company/j-etech-international"><p class="footer-item" ><img src="image/icon/linkedin.svg" alt="" > Linkedin </p></a>
       </div>
       <div class="col-lg-4 col-md-4">
-        <h4> About</h4>
-        <p><i class="fa fa-square-o" aria-hidden="true"></i> About us </p>
-        <p><i class="fa fa-square-o" aria-hidden="true"></i> Privacy </p>
-        <p><i class="fa fa-square-o" aria-hidden="true"></i> Terms & conditions </p>
+        <h4 class="footer-title"> &nbsp </h4>
+        <p class="footer-item" ><img src="image/icon/tel.svg" alt="" >  555-555-1212 </p>
+        <p class="footer-item" ><img src="image/icon/fax.svg" alt="" > 555-555-1212 </p>
+        <p class="footer-item" ><img src="image/icon/add.svg" alt="" > 15/3, &nbsp Visaka Road,&nbsp Colombo 4,&nbsp Sri Lanka.</p>
       </div>
-      <div class="col-lg-4 col-md-4">
-        <h4> Stay in touch</h4>
-        <i class="social fa fa-facebook-official" aria-hidden="true"></i> <i class="social fa fa-twitter" aria-hidden="true"></i> <i class="social fa fa-linkedin-square" aria-hidden="true"></i> <i class="social fa fa-pinterest-square" aria-hidden="true"></i> <i class="social fa fa-youtube" aria-hidden="true"></i> <i class="social fa fa-git" aria-hidden="true"></i><br>
-        <input type="email" placeholder="Subscribe for updates" />
-        <button class="btn btn-success"> Subscribe </button>
+    </div>
+    <div class="copyright">Copyright 2017 © J-eTech International. All rights reserved.</div>
+  </div>
+
+
+</div>
+
+
+ <!--Modal for POS system-->
+  <div class="modal fade" id="products1" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">POS Systems</h4>
+        </div>
+        <div class="modal-body">
+              <div><img src="image/pos.png" alt=""></div>
+              <div>
+              comprises a team of highly motivated, innovative & experienced team of software engineers, who have years of experience in development & implementation of software projects both locally and overseas.
+                <ul>
+                    <li>You can analyze sales data, figure out how well all the items
+                        on your shelves sell, and adjust purchasing levels accordingly.</li>
+                    <li>You can maintain a sales history to help adjust your buying decisions for seasonal purchasing trends.</li>
+                    <li>You can improve pricing accuracy by integrating bar-code scanners and credit card authorization ability with the POS system.</li>
+                </ul>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default jetchbutton" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
-</div>-->
+  <!--Modal for POS system-->
 
   <!--Modal for job advertisements-->
   <div class="modal fade" id="myModal" role="dialog">
@@ -294,24 +388,24 @@
 
             <div class="form-group">
               <label for="exampleInputEmail1" class="jetechlabel">First Name</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter First Name">
+              <input type="text" class="form-control form-control1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter First Name">
             </div>
 
             <div class="form-group">
               <label for="exampleInputEmail1" class="jetechlabel">Last Name</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Last Name">
+              <input type="text" class="form-control form-control1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Last Name">
             </div>
             <div class="form-group">
               <label for="get email" class="jetechlabel">Email</label>
-              <input type="email" class="form-control" id="getemail" placeholder="Enter Email">
+              <input type="email" class="form-control form-control1" id="getemail" placeholder="Enter Email">
             </div>
             <div class="form-group">
               <label for="getaddress" class="jetechlabel">Address</label>
-              <input type="text" class="form-control " id="getaddress" placeholder="Enter Address">
+              <input type="text" class="form-control form-control1" id="getaddress" placeholder="Enter Address">
             </div>
             <div class="form-group">
               <label for="getaddress" class="jetechlabel">Phone Number</label>
-              <input type="text" class="form-control" id="getphonenumber" placeholder="Enter Phone Number">
+              <input type="text" class="form-control form-control1" id="getphonenumber" placeholder="Enter Phone Number">
             </div>
             <div class="form-group">
               <label for="exampleSelect1" class="jetechlabel">Select Gender</label>
@@ -415,23 +509,46 @@
 
 
     $.getJSON("data/news.json", function (json) {
-      
+        var description1=[];
       for (var r = 0; r < json.news.length; r++) {
+        
         var news = $('<div class="col-sm-6 news-item">');
         var date = $('<p class="news-date">').text(json.news[r].date);
-        var title = $('<h3 class="news-title">').text(json.news[r].title);
-        var description = $('<p class="news-description">').text(json.news[r].description);
-        var readmore = $('<a href="" class="news-readmore">').text("Read More");
+        var title = $('<h3 class="news-title">').text(json.news[r].title);    
+        var readmore = $('<a  class="news-readmore" id="' + r + '" >');
+        readmore.text("Read More");
+
+
+        description1[r]=json.news[r].description;
+        var shortText=[];
+        shortText[r] = description1[r].substr(0,200) +'...' ;
+        var description = $('<p class="news-description " id="' + r + '" >').text(shortText[r]);
+
         $(news).append(date);
         $(news).append(title);
         $(news).append(description);
         $(news).append(readmore);
-        $(news).appendTo('.news-container');
+       
+            readmore.click(function (e) {
+            e.preventDefault();
+            // alert(e.target.parentElement);
+            var ele=e.target.previousElementSibling;
+            e.target.previousElementSibling.remove();
+            $(news).append(description);
+            
+            
+            
+            
+            
+        });
+         $(news).appendTo('.news-container');
 
         // $(".news-date").html(json.news[i].date);
         // $(".newsd-title").html(json.news[2].title);
         // $(".news-description").html(json.news[2].description);
       }
+
+
     });
 
 

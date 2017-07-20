@@ -46,7 +46,7 @@ h6 {
 
 input[type='text'],input[type='email'] {
   border-radius: 0px;
-  border: 1px solid #013f5b;
+  border: 1px solid #fff;
   font-family: 'Roboto', sans-serif;
   font-size: 11px; 
 }
@@ -63,9 +63,9 @@ select .form-control{
   background-color: #222222;
 }
 .form-control1 {
-  border-radius: 0px;
-  border: 1px solid #013f5b;
-  font-family: 'Roboto', sans-serif;
+  border-radius: 0px !important;
+  border: 1px solid #013f5b !important;
+  font-family: 'Roboto', sans-serif !important;
 }
 .jetechlabel{
   font-family: 'Roboto', sans-serif;
@@ -223,7 +223,7 @@ fieldset[disabled] .btn-xl.active {
 @media (min-width: 768px) {
   .navbar-custom {
     background-color: transparent;
-    padding: 25px 0;
+    padding: 15px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
@@ -505,9 +505,9 @@ padding-bottom:40px;
 }
 
 .footer{
-    padding:30px;
-	color:#cccccc;
-	background-color:#222222;
+    padding: 60px;
+    color: #ffffff;
+    background-color: #000000;
 }
 
 .footer .social{
@@ -538,13 +538,13 @@ padding-bottom:40px;
 
 
 .welcome{
-	font-size: 3.8vw;
+	font-size: 3.0vw;
   font-family: 'Open Sans', sans-serif;
 
 }
 .navbar-brand img{
 	  width: 275px;
-    margin-top: 18px;
+    margin-top: 0px;
 }
 .searcharea
 {
@@ -571,7 +571,7 @@ padding-bottom:40px;
     text-align: center;
 }
 .arrow img{
-    width: 6%;
+    width: 4%;
     margin-top: 20vh;
     min-width: 60px;
     max-width: 100px
@@ -613,7 +613,7 @@ padding-bottom:40px;
 #joinus{
 		border-top: 1px dashed #000;
 		text-align:center;
-    padding: 6vh 0px;;
+    padding: 7vh 0px;;
 		background-size:cover;
 
 }
@@ -750,12 +750,12 @@ padding-bottom:40px;
 ------------------------------------------------------------------*/
 #products{
   background-image:url(../image/product.jpg);
-  padding: 6vh 0px;
+  padding: 11vh 0px;
 }
 
 .productitem{
   height: 440px;
-  width: 300px;
+  width: 270px;
   background-color: white;
   text-align: center;
   margin:10px 20px; 
@@ -939,9 +939,35 @@ padding-bottom:40px;
 
     width: 99%;
     overflow: hidden;
-    left: 52px;
+    padding-left: 50px;
 
  }
+  @media screen and (max-width:1024px) {
+     .carousel-inner {
+
+ 
+    padding-left: 0px;
+
+ }
+  }
+
+      @media screen and (min-width:376px) and (max-width:1023px){
+     .carousel-inner {
+
+ 
+    padding-left: 100px;
+
+    }
+  }
+
+    @media screen and (max-width:376px){
+     .carousel-inner {
+
+ 
+    padding-left: 18px;
+
+    }
+  }
 
  .active > div { display:none; }
  .active > div:first-child { display:block; }
@@ -1066,4 +1092,215 @@ padding-bottom: 87px;
   font-size: 12PX;
   display: block;
 
+}
+
+
+/*===========================================
+  Agile process Starts
+=============================================*/
+#agile-process{
+      padding-top: 100px;
+      padding-bottom: 100px;
+}
+
+.agile-process
+{
+	width:100%;
+	margin-top:0px;
+	padding:30px 0px 30px;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	color:#fff;
+	position:relative;
+  background-attachment: scroll;
+  text-align: center;
+
+}
+
+.footer-title
+{
+  font-family: 'Lora', serif;
+}
+
+
+
+.footer-item
+{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.logo-without-test{
+  text-align: center;
+}
+
+.copyright
+{   margin-top: 10px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 100;
+    font-size: 10px;
+}
+
+.agile-description{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.agile-readmore
+{
+  text-align: center;
+}
+
+.sidebar{
+  color: red;
+  position: absolute;
+  vertical-align: middle;
+  z-index: 10;
+
+}
+
+
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+}
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+.fa-2x {
+font-size: 2em;
+}
+.fa {
+position: relative;
+display: table-cell;
+width: 60px;
+height: 36px;
+text-align: center;
+vertical-align: middle;
+font-size:16px;
+}
+
+
+.main-menu:hover,nav.main-menu.expanded {
+/* width:70px; */
+overflow:visible;
+/* padding: 5px; */
+}
+
+.main-menu {
+    /* background: #111c46; */
+    position: fixed;
+    top: 40%;
+    right: 0;
+    width: 60px;
+    overflow: hidden;
+    -webkit-transition: width .05s linear;
+    transition: width .05s linear;
+    -webkit-transform: translateZ(0) scale(1,1);
+    z-index: 1000;
+    border-radius: 2px;
+}
+
+.main-menu>ul {
+margin:7px 0;
+}
+
+.main-menu li {
+position:relative;
+display:block;
+width:250px;
+}
+
+.main-menu li>a {
+position:relative;
+display:table;
+border-collapse:collapse;
+border-spacing:0;
+color:#174678;;
+ font-family: arial;
+font-size: 12px;
+text-decoration:none;
+    /* border-bottom: 1px solid #14315f; */
+}
+/* -webkit-transform:translateZ(0) scale(1,1);
+-webkit-transition:all .1s linear;
+transition:all .1s linear; */
+  
+
+
+.main-menu li a:hover,
+.main-menu li a:focus{
+  color:red;
+}
+
+.main-menu>.active>a,  .main-menu>.active>a:focus, .main-menu>.active>a:hover {
+    color: red;
+    background-color: transparent;
+}
+
+
+.main-menu .nav-icon {
+position:relative;
+display:table-cell;
+width:60px;
+height:36px;
+text-align:center;
+vertical-align:middle;
+font-size:18px;
+}
+
+.main-menu .nav-text {
+position:relative;
+display:table-cell;
+vertical-align:middle;
+width:opx;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.main-menu>ul.logout {
+position:absolute;
+left:0;
+bottom:0;
+}
+
+.no-touch .scrollable.hover {
+overflow-y:hidden;
+}
+
+.no-touch .scrollable.hover:hover {
+overflow-y:auto;
+overflow:visible;
+}
+
+a:hover,a:focus {
+text-decoration:none;
+}
+
+nav {
+-webkit-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+-o-user-select:none;
+user-select:none;
+}
+
+nav ul,nav li {
+outline:0;
+margin:0;
+padding:0;
+}
+.main-menu li:hover>a,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {
+color:#b52e32;
+/* background-color:#5fa2db; */
+}
+.area {
+float: left;
+background: #e2e2e2;
+width: 100%;
+height: 100%;
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
 }
