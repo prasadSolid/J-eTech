@@ -1189,7 +1189,7 @@ overflow:visible;
 .main-menu {
     /* background: #111c46; */
     position: fixed;
-    top: 40%;
+    top: 12%;
     right: 0;
     width: 60px;
     overflow: hidden;
@@ -1215,7 +1215,7 @@ position:relative;
 display:table;
 border-collapse:collapse;
 border-spacing:0;
-color:#174678;;
+color:#0e1431;
  font-family: arial;
 font-size: 12px;
 text-decoration:none;
