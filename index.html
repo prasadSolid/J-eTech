@@ -538,14 +538,14 @@
         var news = $('<div class="col-sm-6 news-item">');
         var date = $('<p class="news-date">').text(json.news[r].date);
         var title = $('<h3 class="news-title">').text(json.news[r].title);
-        var readmore = $('<a  class="news-readmore" id="' + r + '" >');
+        var readmore = $('<a  class="news-readmore" id="' + r + 'news" >');
         readmore.text("Read More");
 
 
         description1[r] = json.news[r].description;
         var shortText = [];
         shortText[r] = description1[r].substr(0, 200) + '...';
-        var description = $('<p class="news-description " id="' + r + '" >').text(shortText[r]);
+        var description = $('<p class="news-description " id="' + r + 'news" >').text(shortText[r]);
 
         $(news).append(date);
         $(news).append(title);
@@ -555,8 +555,10 @@
         readmore.click(function (e) {
           e.preventDefault();
           // alert(e.target.parentElement);
-          var ele = e.target.previousElementSibling;
+          var ele = e.target.previousElementSibling.getAttribute("id");
           // e.target.previousElementSibling.remove();
+          $('#'+ele).html("Lorem ipsum dolor sit amet, consectetur s. Morbi leo diam, cursus eget ante non,is auctor dui.u quis augue iaculis iaculis vitae sed nisi. Quisque quis lectusnec lectus maximus dapibus. Morbi leo diam, cursus eget ante non,is auctor du");
+          // ele.appendChild;
           // $(news).append(description);
 
 
