@@ -258,6 +258,36 @@
 
   </div>
 
+    <div id="contact" class="">
+    <div class="container">
+      <h1 class="maintitle"> Contact Us</h1>
+      <div class="row contact-us ">
+        <div class="col-md-6"> 
+            <div id="map" style="height:400px;background:#ccc"></div>
+        </div>
+        <div class="col-md-6 support">
+           <form>
+            <p>
+              Want to know more about our products and support offers or just have a question?
+            </p>
+            <div class="form-group">
+              <input type="text" class="form-control form-control1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter First Name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control form-control1" id="getemail" placeholder="Enter Email">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control form-control1" id="exampleTextarea" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-default ">Submit</button>
+            <button type="submit" class="btn btn-default">Reset</button>
+           </form>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
   <!-- End Header -->
 
   <nav class="side-navigation">
@@ -283,7 +313,6 @@
                     </a>
 
       </li>
-
       <li>
         <a href="#news" class="page-scroll">
                        <i class="fa  fa-square fa-2x page-scroll fa1"></i>
@@ -298,6 +327,14 @@
       </li>
       <li>
         <a href="#agile-process" class="page-scroll">
+                       <i class="fa  fa-square fa-2x page-scroll fa1"></i>
+                        <!-- <span class="nav-text">
+                            Pages
+                        </span> -->
+                    </a>
+      </li>
+      <li>
+        <a href="#contact" class="page-scroll">
                        <i class="fa  fa-square fa-2x page-scroll fa1"></i>
                         <!-- <span class="nav-text">
                             Pages
@@ -461,18 +498,24 @@
 
 
 
+
+
+
   <!-- jQuery -->
   <script src="vendor/jquery/jquery.min.js"></script>
 
   <!-- Bootstrap Core JavaScript -->
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
   <script src="js/wow.min.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6Yw10NgmSIA3hqPrSfr5uEttb88cQwL0&callback=initMap"
+  type="text/javascript"></script>
   <script>
     new WOW().init();
   </script>
   <!-- Plugin JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb"
     crossorigin="anonymous"></script>
+  
 
   <!-- Contact Form JavaScript -->
   <script src="js/jqBootstrapValidation.js"></script>
@@ -480,6 +523,7 @@
 
   <!-- Theme JavaScript -->
   <script src="js/agency.min.js"></script>
+
   <!--<script>
       $.getJSON("data/vacancy.json", function(json) {
             for (var i = 0; i < json.vecancy.length; i++) {
@@ -599,6 +643,21 @@
     });
   </script>
 
+
+
+    <script>
+      function initMap() {
+        var uluru = {lat: 6.927079, lng: 79.861244};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
 </body>
 
 </html>

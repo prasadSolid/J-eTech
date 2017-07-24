@@ -80,6 +80,17 @@ select .form-control{
   -moz-border-radius:0px ;
   border-radius: 0px; 
 }
+
+.btn-default{
+  color: #fff;
+  background-color: red;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+    -webkit-border-radius:0px ;
+  -moz-border-radius:0px ;
+  border-radius: 0px; 
+}
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
@@ -877,16 +888,12 @@ padding-bottom:40px;
 }
 
 
-
-
-
 @media all and  (max-width: 1200px) and (min-width:993px) {
   .readmore
   {
     margin-right: 35px
   }
 }
-
 
 @media all and  (max-width: 993px) and (min-width:768px) {
 
@@ -898,14 +905,7 @@ padding-bottom:40px;
     margin-right: 78px
   }
 
-
 }
-
-
-
-
-
-
 
 
 .col-centered {
@@ -1312,4 +1312,21 @@ height: 100%;
   font-style: normal;
   font-weight: 300;
   src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
+}
+
+#contact{
+  background-color: #faf9f9;
+}
+
+
+.contact-us{
+  margin:50px 0px; 
+
+}
+
+@media screen and (max-width:933px){
+.support{
+  margin-top: 30px;
+
+}
 }
